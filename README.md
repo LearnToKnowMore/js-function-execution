@@ -12,5 +12,5 @@ But to execute a function on a event, such as button click/ mouse event, etc., w
 2. Use [`.bind()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) on function
 ---
 ![image](https://user-images.githubusercontent.com/26609973/79126012-1eced480-7d6d-11ea-8160-8d7197cd55d1.png)
-
+---
 ![image](https://user-images.githubusercontent.com/26609973/79126409-dd8af480-7d6d-11ea-9443-0b061f92a0ee.png)
