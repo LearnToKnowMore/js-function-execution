@@ -1,0 +1,27 @@
+div.external{
+    width: 50rem;
+    max-width: 90%;
+    border: 3px solid #cccccc;
+    border-radius: 10px;
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+div.internal{
+    border: 1px solid #3d0258;
+    border-radius: 3px;
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activediv{
+    width: 50rem;
+    max-width: 90%;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    margin: 3rem auto;
+    padding: 1rem;
+}
