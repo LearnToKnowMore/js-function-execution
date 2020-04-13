@@ -1,2 +1,12 @@
 # js-function-execution
-Direct vs Indirect function calls in Vanilla JS
+#### Direct vs Indirect function calls in Vanilla JS
+----
+Function(s) are executed, when they're defined/ declared and called with `()` at the end functionName.
+```javascript
+function foo() { ... } // declare foo function
+// ...
+foo(); // calling foo function - foo is executed when js file is loaded.
+```
+But to execute a function on a event, such as button click/ mouse event, etc., we shouldn't call function on page load. Instead function should be called when event occurs. This can be attained in two ways
+1. Anonymous functions `() => { }`
+2. Use `.bind()` on function
